@@ -8,7 +8,7 @@ import { JustificacionModule } from './modules/justificacion/justificacion.modul
 import { TareasModule } from './modules/tareas/tareas.module';
 
 @Module({
-  imports: [AuthModule, UsersModule, JustificacionModule, TareasModule],
+  imports: [AuthModule, UsersModule,  JustificacionModule, TareasModule],
   controllers: [AppController],
   providers: [AppService],
 })
